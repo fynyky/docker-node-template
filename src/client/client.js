@@ -1,0 +1,1 @@
+console.log("Docker Node Template Client: client.js");

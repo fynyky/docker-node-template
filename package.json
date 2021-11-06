@@ -1,0 +1,19 @@
+{
+  "name": "node-template",
+  "version": "1.0.0",
+  "description": "Basic node app boilerplate",
+  "type": "module",
+  "scripts": {
+    "build": "bash scripts/build.sh"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "normalize.css": "^8.0.1",
+    "parcel": "^2.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.0.0",
+    "@parcel/transformer-pug": "^2.0.0",
+    "@parcel/transformer-sass": "^2.0.0"
+  }
+}
