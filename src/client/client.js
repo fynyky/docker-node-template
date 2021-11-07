@@ -1,1 +1,1 @@
-console.log("Docker Node Template Client: client.js");
+console.log("Docker Node Template: client.js");

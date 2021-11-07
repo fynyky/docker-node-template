@@ -4,7 +4,8 @@
   "description": "Basic node app boilerplate",
   "type": "module",
   "scripts": {
-    "build": "bash scripts/build.sh"
+    "build": "bash scripts/build.sh",
+    "start": "npm run build && node dist/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
